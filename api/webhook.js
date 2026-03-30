@@ -18,7 +18,7 @@ export default async function handler(req, res) {
       `https://server.smartlead.ai/api/v1/leads/${leadId}`,
       {
         headers: {
-          Authorization: `Bearer ${process.env.6e9c8915-7c57-4021-8abc-2a737731d800_borhntf`,
+          Authorization: `Bearer ${process.env.SMARTLEAD_API_KEY}`,
         },
       }
     );
